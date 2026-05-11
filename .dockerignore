@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.env
+accounts.txt
+pending-transactions.json
+.git
+.gitignore
+*.bat
+README.md

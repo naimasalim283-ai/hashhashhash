@@ -1,0 +1,18 @@
+{
+  "name": "hash256-node-miner",
+  "version": "1.0.0",
+  "description": "Safe HASH256 CPU miner and auto-mint script for owned wallets.",
+  "type": "module",
+  "main": "src/miner.js",
+  "scripts": {
+    "start": "node src/miner.js",
+    "mine": "node src/miner.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
